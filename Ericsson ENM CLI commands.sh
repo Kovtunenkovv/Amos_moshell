@@ -74,3 +74,8 @@ GPS_priority PTP/GPS:
   confb-
   gs-
   cvms newAlarm
+
+Выгрузка ret: (Command Line Interface)
+  cmedit get * AntennaNearUnit.(productNumber,uniqueId,serialNumber) -t
+   ctrl+enter 
+  enm.txt
